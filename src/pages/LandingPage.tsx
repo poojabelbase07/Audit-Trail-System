@@ -43,27 +43,7 @@ export default function LandingPage() {
           </Link>
         </div>
 
-        {/* Feature highlights - simple list */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-          <div>
-            <div className="text-blue-600 font-semibold mb-2">🔒 Secure</div>
-            <p className="text-sm text-gray-600">
-              JWT authentication with bcrypt encryption
-            </p>
-          </div>
-          <div>
-            <div className="text-blue-600 font-semibold mb-2">📊 Compliant</div>
-            <p className="text-sm text-gray-600">
-              Immutable logs for SOC2 and GDPR compliance
-            </p>
-          </div>
-          <div>
-            <div className="text-blue-600 font-semibold mb-2">⚡ Fast</div>
-            <p className="text-sm text-gray-600">
-              Sub-300ms queries on thousands of events
-            </p>
-          </div>
-        </div>
+      
       </div>
     </div>
   );
