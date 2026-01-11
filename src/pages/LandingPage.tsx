@@ -39,7 +39,7 @@ export default function LandingPage() {
             to="/login"
             className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors"
           >
-            Sign In
+            Login In
           </Link>
         </div>
 
